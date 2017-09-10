@@ -8,16 +8,19 @@ Original code and circuit schematics can be found here: http://www.qsl.net/dl4yh
 
 With this modified code: 
 
-* Omit diodes C1, C2, X1, D1-4, R10 and T1
+* Omit diodes D1-4, C1, C2, X1, R10 and T1
 
 * Connect the output of a (20MHz) TTL oscillator module to the OSC1 pin (16)
 
 * Connect OSC2/RA6/PB6 pin (15) to the common anode or cathode of display digit 5 (instead of using the transistor/diode NAND gate)
 
-* Compile the code, remembering to define approproate values for:
+* Compile the code, remembering to define appropriate values for:
 
-  DISPLAY_VARIANT_n - to match your circuit design (V1 or V2) and whether your display is common anode or cathode
-  CLOCK_VARIANT - to match your oscillator frequency
-  EXT_CLOCK - set to 1 if you are using an external oscillator module
+ - DISPLAY_VARIANT_n - to match your circuit design (V1 or V2) and whether your display is common anode or cathode
+  
+ - CLOCK_VARIANT - to match your oscillator frequency
+  
+ - EXT_CLOCK - set to 1 if you are using an external oscillator module
 
+See the PNG image herebouts to see how/where to set these values in MPLAB X
   
