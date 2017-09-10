@@ -24,4 +24,4 @@ With this modified code:
 
 See the PNG image herebouts to see how/where to set these values in MPLAB X
   
-10-Sep-2017: I have tested this code on my stripboard build with a common ANODE display. I have also modified the code sections for common CATHODE displays, but have no current means to test it - if you use the code with such a display please let me know is anything needs changing.
+10-Sep-2017: I have tested this code on my stripboard build with a common ANODE display. I have also modified the code sections for common CATHODE displays, but have no current means to test it - if you use the code with such a display please let me know if anything needs changing.
