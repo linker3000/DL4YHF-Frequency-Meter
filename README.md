@@ -1,14 +1,12 @@
 # DL4YHF-Frequency-Meter
 
-Modified version of the excellent, PIC Micro-based frequency meter by Wolfgang "Wolf" Büscher, DL4YHF
+I have modified the code to include an option to use an external crystal oscillator module on OSC1, which frees OSC2/RA6/PB6 as an output pin which can then be used to control display digit 5 instead of the diode/transistor NAND gate.    
 
-Added option to specify that you are using an external crystal oscillator module on OSC1, which frees OSC2/RA6/PB6 as an output pin that can then be used to control display digit 5 instead of the diode/transistor NAND gate.    
-
-Original code and circuit schematics can be found here: http://www.qsl.net/dl4yhf/freq_counter/freq_counter.html
+The original code and circuit schematics can be found here: http://www.qsl.net/dl4yhf/freq_counter/freq_counter.html
 
 With this modified code: 
 
-* Omit diodes D1-4, C1, C2, X1, R10 and T1
+* Omit C1, C2, X1, D1-4, R10 and T1 (The crystal oscillator circuit and the transistor/diode NAND gate that controls digit 5)
 
 * Connect the output of a (20MHz) TTL oscillator module to the OSC1 pin (16)
 
