@@ -16,11 +16,11 @@ With this modified code:
 
 * Compile the code, remembering to define appropriate values for:
 
- - DISPLAY_VARIANT_n - to match your circuit design (V1 or V2) and whether your display is common anode or cathode
+ -- DISPLAY_VARIANT_n - to match your circuit design (V1 or V2) and whether your display is common anode or cathode
   
- - CLOCK_VARIANT - to match your oscillator frequency
+ -- CLOCK_VARIANT - to match your oscillator frequency
   
- - EXT_CLOCK - set to 1 if you are using an external oscillator module
+ -- EXT_CLOCK - set to 1 if you are using an external oscillator module
 
 See the PNG image herebouts to see how/where to set these values in MPLAB X
   
