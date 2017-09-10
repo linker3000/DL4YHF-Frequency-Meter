@@ -1,6 +1,6 @@
 # DL4YHF-Frequency-Meter
 
-I have modified the code to include an option to use an external crystal oscillator module on OSC1, which frees OSC2/RA6/PB6 as an output pin which can then be used to control display digit 5 instead of the diode/transistor NAND gate.    
+I have modified the code to support using an external crystal oscillator module on the PIC's OSC1/RA7/PB7 pin, which frees OSC2/RA6/PB6 as an output pin which can then be used to control display digit 5 instead of the diode/transistor NAND gate.    
 
 The original code and circuit schematics can be found here: http://www.qsl.net/dl4yhf/freq_counter/freq_counter.html
 
