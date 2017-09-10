@@ -62,7 +62,7 @@
   #define DISP_VARIANT 4
   #define COMMON_ANODE   0
   #define COMMON_CATHODE 1
-  "Error, Must define DISPLAY_VARIANT_1, .._2, or .._3 under project options"
+  ;"Error, Must define DISPLAY_VARIANT_1, .._2, or .._3 under project options"
   ; With MPLAB: Project..Build Options..Project..MPASM..Macro Definitions..Add
 #endif
 #endif

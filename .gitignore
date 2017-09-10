@@ -1,1 +1,7 @@
 LocalResources
+dist
+build
+debug
+nbproject
+*.fil
+Makefile
