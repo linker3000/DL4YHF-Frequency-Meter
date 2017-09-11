@@ -163,9 +163,9 @@
      __CONFIG   _CP_OFF & _WDT_ON & _PWRTE_ON & _HS_OSC & _LVP_OFF & _BODEN_OFF & _MCLRE_OFF
   #endif
 #else
-  #if (DISP_VARIANT==1)  ; display variant 1 : clocked with 4 MHz (low power, "XT" )
+  #if (DISP_VARIANT==1)  ; display variant 1 : clocked with 4 MHz external oscillator module
      __CONFIG   _CP_OFF & _WDT_ON & _PWRTE_ON & _EXTCLK_OSC & _LVP_OFF & _BODEN_OFF & _MCLRE_OFF
-  #else                  ; display variants 2+3 : clocked with 20 MHz (needs "HS" oscillator)
+  #else                  ; display variants 2+3 : clocked with 20 MHz external oscillator module
      __CONFIG   _CP_OFF & _WDT_ON & _PWRTE_ON & _EXTCLK_OSC & _LVP_OFF & _BODEN_OFF & _MCLRE_OFF
   #endif
 #endif  
