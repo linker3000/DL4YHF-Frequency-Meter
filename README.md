@@ -2,9 +2,9 @@
 
 I have modified the code to support using an external crystal oscillator module on the PIC's OSC1/RA7/PB7 pin, which frees OSC2/RA6/PB6 as an output pin which can then be used to control display digit 5 instead of the diode/transistor NAND gate.    
 
-The modified circuit schematic is in this repo as picboard5_schL3K.gif
-
 The original code and circuit schematics can be found here: http://www.qsl.net/dl4yhf/freq_counter/freq_counter.html
+
+The modified circuit schematic is in this repo as picboard5_schL3K.gif
 
 With reference to the original schematic: 
 
@@ -23,7 +23,5 @@ With reference to the original schematic:
  -- EXT_CLOCK - set to 1 if you are using an external oscillator module
 
 See the PNG image MPLAB-Setting-Values.png to see how/where to set these values in MPLAB X
-
-See
 
 10-Sep-2017: I have tested this code on my stripboard build with a common ANODE display. I have also modified the code sections for common CATHODE displays, but have no current means to test it - if you use the code with such a display please let me know if anything needs changing.
