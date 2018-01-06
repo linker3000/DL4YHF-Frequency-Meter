@@ -6,7 +6,9 @@ I have modified the code to support using an external crystal oscillator module 
 
 The original code and circuit schematics can be found here: http://www.qsl.net/dl4yhf/freq_counter/freq_counter.html
 
-The modified circuit schematic is in this repo as picboard5_schL3K.gif
+My modified circuit is:
+
+![Image](picboard5_schL3K.gif)
 
 With reference to the original schematic: 
 
