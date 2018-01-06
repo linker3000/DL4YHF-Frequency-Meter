@@ -26,6 +26,8 @@ With reference to the original schematic:
   
  -- EXT_CLOCK - set to 1 if you are using an external oscillator module
 
-See the PNG image MPLAB-Setting-Values.png to see how/where to set these values in MPLAB X
+Here's where to set these values in MPLAB X:
+
+![Image](MPLAB-Setting-Values.png) 
 
 10-Sep-2017: I have tested this code on my stripboard build with a common ANODE display. I have also modified the code sections for common CATHODE displays, but have no current means to test it - if you use the code with such a display please let me know if anything needs changing.
